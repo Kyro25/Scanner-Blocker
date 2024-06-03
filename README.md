@@ -6,4 +6,7 @@ Most of these are tools that find vulnerabilities in your Computer/VPS network. 
 After you're satisfied with your system vulnerability, You can use the tool I provided to block these tools from connecting to your system. 
 Please keep in mind, some tools have a history check in place so it won't be completely invisible but it will block new searches.
 
+### To Block, please install the zip file and run block_scanners.bat
+### To Unblock, please run unblock_scanners.bat from the same zip file
+
 - **This was created for Windows and has been tested on Windows. You may edit your own copy to your liking.**
