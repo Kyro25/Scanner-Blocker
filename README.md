@@ -5,3 +5,5 @@
 Most of these are tools that find vulnerabilities in your Computer/VPS network. I recommend using these tools first to ensure that your system is safe from attacks. 
 After you're satisfied with your system vulnerability, You can use the tool I provided to block these tools from connecting to your system. 
 Please keep in mind, some tools have a history check in place so it won't be completely invisible but it will block new searches.
+
+**This was created for Windows and has been tested on Windows. You may edit your own copy to your liking.**
