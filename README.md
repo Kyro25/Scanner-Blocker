@@ -34,4 +34,4 @@ chmod +x block_scanners.sh
 sudo ./block_scanners.sh
 ```
 
-The diagram below shows how iptables processes these rules. By using -I (Insert), we ensure these "DROP" rules sit at the very top of the chain, stopping the traffic before any other rules allow it through.
+By using -I (Insert), we ensure these "DROP" rules sit at the very top of the chain, stopping the traffic before any other rules allow it through.
