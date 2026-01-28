@@ -24,6 +24,13 @@ irm https://dev.kyrollose.com/scanner-blocker/ | iex
 
 ## Linux:
 
+One-liner:
+
+```
+curl -s https://raw.githubusercontent.com/Kyro25/Scanner-Blocker/refs/heads/main/block_scanners.sh | sudo bash
+```
+
+Manual install:
 1. Save the file (block_scanners.sh)
 2. Make it executable
 ```
