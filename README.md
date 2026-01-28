@@ -20,3 +20,18 @@ irm https://dev.kyrollose.com/scanner-blocker/ | iex
 - To Unblock, please run unblock_scanners.bat from the same zip file
 
 **This was created for Windows and has been tested on Windows. You may edit your own copy to your liking.**
+
+
+## Linux:
+
+1. Save the file (block_scanners.sh)
+2. Make it executable
+```
+chmod +x block_scanners.sh
+```
+3. Run it
+```
+sudo ./block_scanners.sh
+```
+
+The diagram below shows how iptables processes these rules. By using -I (Insert), we ensure these "DROP" rules sit at the very top of the chain, stopping the traffic before any other rules allow it through.
